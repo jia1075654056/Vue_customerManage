@@ -1,0 +1,75 @@
+
+//创建vue项目--搭建脚手架
+//vue init webpack firstVue
+//cnpm install
+//npm run dev
+
+
+
+
+//json-server
+//npm install axious --save-dev
+
+
+vue 用户管理项目
+
+搭建本地数据库 json-server
+
+新建文件夹，进入文件夹
+npm init 安装基本模块，之后创建项目，一直回车
+安装json-server模块
+npm install json-server --save
+在package.json中修改"scripts":{"json:server":"json-server --watch db.json"}
+db.json为本地创建的json文件，可自己添加值
+
+启动json-server
+npm run json:server
+启动后 网址为http://localhost:3000 
+//注意我们要开两个服务器
+
+搭建脚手架，创建vue项目
+
+npm init webpack 项目名字
+创建中按照自己修改名字等，添加路由，之后全部选NO（不选择的话会非常麻烦）
+项目创建之后，可以直接 npm run dev 开启服务
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
